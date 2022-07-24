@@ -1,0 +1,68 @@
+{
+  "homepage": "https://softickllc.com",
+  "name": "softickllc",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "4.3.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "3.2.1",
+    "js-cookie": "^2.2.1",
+    "loadsh": "^0.0.4",
+    "mini-css-extract-plugin": "^0.7.0",
+    "popper.js": "^1.15.0",
+    "react-content-loader": "^4.2.2",
+    "react-helmet": "^5.2.1",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.5",
+    "redux-thunk": "^2.3.0",
+    "style-loader": "^0.23.1",
+    "use-deep-compare-effect": "^1.2.0",
+    "warning": "^4.0.3",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "core-js": "3.1.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.0.6",
+    "react-scripts": "^3.1.1",
+    "regenerator-runtime": "^0.13.2",
+    "yarn": "^1.17.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "dev": "webpack --open --mode development",
+    "build": "webpack --open --mode production",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
